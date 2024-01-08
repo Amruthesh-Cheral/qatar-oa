@@ -1,0 +1,39 @@
+@import "../abstracts/variable";
+.qatar-oa {
+  &__view-more2 {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      cursor: pointer;
+      font-size: 15px;
+      position: relative;
+      margin: 21px;
+      &::before {
+          position: absolute;
+          content: "";
+          width: 41px;
+          height: 35px;
+          border-radius: 4%;
+          background-color: #ebebeb;
+          top: -8px;
+          left: -21px;
+          transition: .3s;
+      }
+      &:hover {
+          &::before {
+              width: 150px;
+          }
+      }
+      .view-title {
+          display: flex;
+          position: relative;
+          z-index: 1;
+      }
+      .view-icon{
+          margin-left: 20px;
+          display: flex;
+      }
+  }
+
+
+}

@@ -1,0 +1,44 @@
+.qatar-oa {
+    &__title-head {
+        color: $secondary-color;
+        font-size: 25px;
+        font-weight: 400;
+        span {
+            font-weight: 700;
+            font-family: $secondary-font;
+        }
+    }
+    &__view-more {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        cursor: pointer;
+        font-size: 15px;
+        span {
+            display: flex;
+            font-family: $secondary-font;
+        }
+    }
+
+    &__short-para {
+        font-size: 15px;
+        color: $primary-text;
+        line-height: 25px;
+    }
+}
+
+@include tablet {
+    .qatar-oa {
+        &__short-note {
+            font-size: 12px;
+        }
+        &__title-note {
+            font-size: 26px;
+            margin: 10px 0;
+        }
+        &__short-para {
+            font-size: 14px;
+            line-height: 20px;
+        }
+    }
+}

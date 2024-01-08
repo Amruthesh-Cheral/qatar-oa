@@ -1,0 +1,30 @@
+
+/* =============== NeoSansW1G-Bold =================  */
+
+@font-face {
+  font-family: 'Neo Sans';
+  src: url('../../fonts/NeoSans-Medium.woff2') format('woff2'),
+      url('../../fonts/NeoSans-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neo Sans W1G';
+  src: url('../../fonts/NeoSansW1G-Bold.woff2') format('woff2'),
+      url('../../fonts/NeoSansW1G-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neo Sans W1G';
+  src: url('../../fonts/NeoSansW1G-Regular.woff2') format('woff2'),
+      url('../../fonts/NeoSansW1G-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
